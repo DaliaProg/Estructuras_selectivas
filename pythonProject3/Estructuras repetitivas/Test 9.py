@@ -3,9 +3,9 @@ numero=int(input("Ingrese el número: "))
 
 suma = 0
 for i in range (1,numero+1):
-   # print(i)
     suma = suma + i
-    #print(suma)
+    promedio = suma/numero
+print("La suma de los números es: " + str(suma))
 
-print(suma)
+print("El promedio es: " + str(promedio))
 
