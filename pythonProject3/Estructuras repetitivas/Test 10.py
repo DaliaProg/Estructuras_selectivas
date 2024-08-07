@@ -1,6 +1,7 @@
 
-numeros= input("Ingrese doce números enteros separados por espacios: ")
+numeros= input("Ingrese doce números enteros separados por comas: ")
 suma=0
 for i in numeros:
-    suma=suma+i
-    print(suma)
+    if numeros!=",":
+        suma=suma+int(i)
+        print(suma)
